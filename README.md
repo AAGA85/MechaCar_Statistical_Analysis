@@ -33,6 +33,12 @@ b)	P-values and R-squared value for the linear regression model:
 
 
 c)	Statistical Summary:
+•	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? According to the Pr(>|t|) column
+
+•	Is the slope of the linear model considered to be zero? Why or why not?
+
+•	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 
 
 
@@ -86,6 +92,24 @@ c)	Statistical Summary
 
 ## Study Design: MechaCar vs Competition
 
+The most important factor to determine the success of any product must be the voice of the customer. In the recent years, more and more industries are trying to develop way to have a clear understanding of the customer needs, expectations and product improvement. If AutoRU’s focuses to improve the product MechaCar using the customer experience with real customer insights to develop a model to predict the owner satisfaction, there will be more propabilities to have a success launch. 
+As with any vehicle, reliability is always a top consideration because the vehicle cannot be a good for the customer if it is always in the shop right?
+
+**Metrics and Data**
+Our statistical study will be focused on develop a model that contains information of the top 3 competitors and the AutosRUs historical data with similar products to MechaCar type, including significant variables that our team of data analytics could collect of the latest 2 or 3 model years of those cars:
+a) Frequency of failures reported the first 1 year 
+b) Average cost of repair 
+c) Number of recalls 
+
+**Hypothesis: Null and alternative**
+
+•	Null Hypothesis: The reliability of the car is dependable of the metrics defined. 
+
+•	Alternative Hypothesis: The reliability of the car is not based on the performance of the variables
+
+**Statistical Test**
+
+For this case we will use a multiple linear regression because this statistical test will help us to determine if the metrics in the model have a high correlation with the reliability of the vehicle. With this information AutoRUs will be able to measure the reliability of similar cars and with that,  predict the reliability that could have this new lunch. 
 
 
 
